@@ -14,9 +14,9 @@ BRANDS = []
   end
   
   #create the writer for genre and add the logic for the class
-  def brands=(brands)
-    @brand = brands 
-    BRANDS << brands 
+  def brand=(brand)
+    @brand = brand 
+    BRANDS << brand
   end 
 
 end
