@@ -7,6 +7,9 @@ BRANDS = []
   def initialize(brand)
     @brand = brand
     BRANDS << brand
+    self.new(brand)
+    #Shoe.new(brand)
+    
   end
 
   def cobble
