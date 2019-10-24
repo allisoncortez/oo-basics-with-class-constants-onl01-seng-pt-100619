@@ -6,6 +6,7 @@ BRANDS = []
 
   def initialize(brand)
     @brand = brand
+    BRANDS << brand
   end
 
   def cobble
@@ -13,10 +14,10 @@ BRANDS = []
     puts "Your shoe is as good as new!"
   end
   
-  #create the writer for genre and add the logic for the class
-  def brand=(brand)
-    @brand = brand 
-    BRANDS << brand
-  end 
+  # #create the writer for genre and add the logic for the class
+  # def brand=(brand)
+  #   @brand = brand 
+  #   BRANDS << brand
+  # end 
 
 end
