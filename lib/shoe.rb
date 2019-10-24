@@ -6,7 +6,7 @@ BRANDS = []
 
   def initialize(brand)
     @brand = brand
-    BRANDS << brand.uniq
+    BRANDS << brand unless brand.include?(brand)
     
     #Shoe.new(brand)
     
