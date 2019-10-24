@@ -13,7 +13,7 @@ BRANDS = []
   end
   
   def brand
-    puts @brand
+    self.new(brand)
   end
 
   def cobble
