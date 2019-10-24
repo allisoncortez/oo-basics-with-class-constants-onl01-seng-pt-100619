@@ -6,7 +6,7 @@ BRANDS = []
 
   def initialize(brand)
     @brand = brand
-    BRANDS << self.new(brand
+    BRANDS << self.new(brand)
     #Shoe.new(brand)
     
   end
